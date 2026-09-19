@@ -12,31 +12,31 @@
         <meta name="author" content="Mirantis, Inc.">
       
       
-        <link rel="canonical" href="https://docs.k0sproject.io/head/cli/">
+        <link rel="canonical" href="https://docs.k0sproject.io/head/contributors/code_guidelines/">
       
       
-        <link rel="prev" href="../architecture/">
+        <link rel="prev" href="../github_workflow/">
       
       
-        <link rel="next" href="../cis_benchmark/">
+        <link rel="next" href="../testing/">
       
       
         
       
       
-      <link rel="icon" href="../img/k0s-favicon-192.png">
+      <link rel="icon" href="../../img/k0s-favicon-192.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
-        <title>Command Line - Documentation</title>
+        <title>Code guidelines - Documentation</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -55,9 +55,9 @@
       
     
     
-      <link rel="stylesheet" href="../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-JMV1409T2T"></script>
@@ -89,7 +89,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#k0s" class="md-skip">
+        <a href="#code-guidelines" class="md-skip">
           Skip to content
         </a>
       
@@ -104,12 +104,12 @@
             <div class="md-banner__inner md-grid md-typeset">
               
   You are not currently viewing the documentation for the current stable release of k0s.
-  <a href="../..">
+  <a href="../../..">
     <strong>Click here to go to the documentation of the current stable release.</strong>
   </a>
 
             </div>
-            <script>var el=document.querySelector("[data-md-component=outdated]"),base=new URL(".."),outdated=__md_get("__outdated",sessionStorage,base);!0===outdated&&el&&(el.hidden=!1)</script>
+            <script>var el=document.querySelector("[data-md-component=outdated]"),base=new URL("../.."),outdated=__md_get("__outdated",sessionStorage,base);!0===outdated&&el&&(el.hidden=!1)</script>
           </aside>
         
       </div>
@@ -121,9 +121,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="Documentation" class="md-header__button md-logo" aria-label="Documentation" data-md-component="logo">
+    <a href="../.." title="Documentation" class="md-header__button md-logo" aria-label="Documentation" data-md-component="logo">
       
-  <img src="../img/k0s-favicon-192.png" alt="logo">
+  <img src="../../img/k0s-favicon-192.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -140,7 +140,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Command Line
+              Code guidelines
             
           </span>
         </div>
@@ -258,9 +258,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Documentation" class="md-nav__button md-logo" aria-label="Documentation" data-md-component="logo">
+    <a href="../.." title="Documentation" class="md-nav__button md-logo" aria-label="Documentation" data-md-component="logo">
       
-  <img src="../img/k0s-favicon-192.png" alt="logo">
+  <img src="../../img/k0s-favicon-192.png" alt="logo">
 
     </a>
     Documentation
@@ -287,7 +287,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -361,7 +361,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../install/" class="md-nav__link">
+      <a href="../../install/" class="md-nav__link">
         
   
   
@@ -389,7 +389,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../k0sctl-install/" class="md-nav__link">
+      <a href="../../k0sctl-install/" class="md-nav__link">
         
   
   
@@ -464,7 +464,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../k0s-multi-node/" class="md-nav__link">
+      <a href="../../k0s-multi-node/" class="md-nav__link">
         
   
   
@@ -492,7 +492,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../k0s-in-docker/" class="md-nav__link">
+      <a href="../../k0s-in-docker/" class="md-nav__link">
         
   
   
@@ -520,7 +520,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../experimental-windows/" class="md-nav__link">
+      <a href="../../experimental-windows/" class="md-nav__link">
         
   
   
@@ -548,7 +548,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../raspberry-pi4/" class="md-nav__link">
+      <a href="../../raspberry-pi4/" class="md-nav__link">
         
   
   
@@ -576,7 +576,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../raspberry-pi5/" class="md-nav__link">
+      <a href="../../raspberry-pi5/" class="md-nav__link">
         
   
   
@@ -604,7 +604,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../examples/ansible-playbook/" class="md-nav__link">
+      <a href="../../examples/ansible-playbook/" class="md-nav__link">
         
   
   
@@ -632,7 +632,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../airgap-install/" class="md-nav__link">
+      <a href="../../airgap-install/" class="md-nav__link">
         
   
   
@@ -660,7 +660,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../custom-ca/" class="md-nav__link">
+      <a href="../../custom-ca/" class="md-nav__link">
         
   
   
@@ -696,7 +696,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../system-requirements/" class="md-nav__link">
+      <a href="../../system-requirements/" class="md-nav__link">
         
   
   
@@ -724,7 +724,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../external-runtime-deps/" class="md-nav__link">
+      <a href="../../external-runtime-deps/" class="md-nav__link">
         
   
   
@@ -752,7 +752,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../verifying-signs/" class="md-nav__link">
+      <a href="../../verifying-signs/" class="md-nav__link">
         
   
   
@@ -834,7 +834,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../upgrade/" class="md-nav__link">
+      <a href="../../upgrade/" class="md-nav__link">
         
   
   
@@ -862,7 +862,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../version-skew-policy/" class="md-nav__link">
+      <a href="../../version-skew-policy/" class="md-nav__link">
         
   
   
@@ -890,7 +890,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../backup/" class="md-nav__link">
+      <a href="../../backup/" class="md-nav__link">
         
   
   
@@ -918,7 +918,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../remove_controller/" class="md-nav__link">
+      <a href="../../remove_controller/" class="md-nav__link">
         
   
   
@@ -946,7 +946,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../reset/" class="md-nav__link">
+      <a href="../../reset/" class="md-nav__link">
         
   
   
@@ -974,7 +974,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../directories/" class="md-nav__link">
+      <a href="../../directories/" class="md-nav__link">
         
   
   
@@ -1056,7 +1056,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../configuration/" class="md-nav__link">
+      <a href="../../configuration/" class="md-nav__link">
         
   
   
@@ -1084,7 +1084,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../dynamic-configuration/" class="md-nav__link">
+      <a href="../../dynamic-configuration/" class="md-nav__link">
         
   
   
@@ -1112,7 +1112,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../configuration-validation/" class="md-nav__link">
+      <a href="../../configuration-validation/" class="md-nav__link">
         
   
   
@@ -1140,7 +1140,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../worker-node-config/" class="md-nav__link">
+      <a href="../../worker-node-config/" class="md-nav__link">
         
   
   
@@ -1168,7 +1168,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../networking/" class="md-nav__link">
+      <a href="../../networking/" class="md-nav__link">
         
   
   
@@ -1196,7 +1196,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../runtime/" class="md-nav__link">
+      <a href="../../runtime/" class="md-nav__link">
         
   
   
@@ -1224,7 +1224,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../storage/" class="md-nav__link">
+      <a href="../../storage/" class="md-nav__link">
         
   
   
@@ -1252,7 +1252,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../system-monitoring/" class="md-nav__link">
+      <a href="../../system-monitoring/" class="md-nav__link">
         
   
   
@@ -1280,7 +1280,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../manifests/" class="md-nav__link">
+      <a href="../../manifests/" class="md-nav__link">
         
   
   
@@ -1308,7 +1308,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../helm-charts/" class="md-nav__link">
+      <a href="../../helm-charts/" class="md-nav__link">
         
   
   
@@ -1336,7 +1336,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../feature-gates/" class="md-nav__link">
+      <a href="../../feature-gates/" class="md-nav__link">
         
   
   
@@ -1364,7 +1364,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../cloud-providers/" class="md-nav__link">
+      <a href="../../cloud-providers/" class="md-nav__link">
         
   
   
@@ -1392,7 +1392,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../dual-stack/" class="md-nav__link">
+      <a href="../../dual-stack/" class="md-nav__link">
         
   
   
@@ -1420,7 +1420,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../single-stack-ipv6/" class="md-nav__link">
+      <a href="../../single-stack-ipv6/" class="md-nav__link">
         
   
   
@@ -1448,7 +1448,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../high-availability/" class="md-nav__link">
+      <a href="../../high-availability/" class="md-nav__link">
         
   
   
@@ -1476,7 +1476,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../nllb/" class="md-nav__link">
+      <a href="../../nllb/" class="md-nav__link">
         
   
   
@@ -1504,7 +1504,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../cplb/" class="md-nav__link">
+      <a href="../../cplb/" class="md-nav__link">
         
   
   
@@ -1532,7 +1532,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../shell-completion/" class="md-nav__link">
+      <a href="../../shell-completion/" class="md-nav__link">
         
   
   
@@ -1560,7 +1560,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../user-management/" class="md-nav__link">
+      <a href="../../user-management/" class="md-nav__link">
         
   
   
@@ -1588,7 +1588,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../environment-variables/" class="md-nav__link">
+      <a href="../../environment-variables/" class="md-nav__link">
         
   
   
@@ -1616,7 +1616,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../examples/oidc/oidc-cluster-configuration/" class="md-nav__link">
+      <a href="../../examples/oidc/oidc-cluster-configuration/" class="md-nav__link">
         
   
   
@@ -1644,7 +1644,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../selinux/" class="md-nav__link">
+      <a href="../../selinux/" class="md-nav__link">
         
   
   
@@ -1672,7 +1672,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../podsecurity/" class="md-nav__link">
+      <a href="../../podsecurity/" class="md-nav__link">
         
   
   
@@ -1700,7 +1700,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../reinstall-k0sctl/" class="md-nav__link">
+      <a href="../../reinstall-k0sctl/" class="md-nav__link">
         
   
   
@@ -1782,7 +1782,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../autopilot/" class="md-nav__link">
+      <a href="../../autopilot/" class="md-nav__link">
         
   
   
@@ -1810,7 +1810,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../autopilot-multicommand/" class="md-nav__link">
+      <a href="../../autopilot-multicommand/" class="md-nav__link">
         
   
   
@@ -1892,7 +1892,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../examples/metallb-loadbalancer/" class="md-nav__link">
+      <a href="../../examples/metallb-loadbalancer/" class="md-nav__link">
         
   
   
@@ -1920,7 +1920,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../examples/nginx-ingress/" class="md-nav__link">
+      <a href="../../examples/nginx-ingress/" class="md-nav__link">
         
   
   
@@ -1948,7 +1948,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../examples/traefik-ingress/" class="md-nav__link">
+      <a href="../../examples/traefik-ingress/" class="md-nav__link">
         
   
   
@@ -1976,7 +1976,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../examples/rook-ceph/" class="md-nav__link">
+      <a href="../../examples/rook-ceph/" class="md-nav__link">
         
   
   
@@ -2004,7 +2004,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../examples/gitops-flux/" class="md-nav__link">
+      <a href="../../examples/gitops-flux/" class="md-nav__link">
         
   
   
@@ -2032,7 +2032,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../examples/openebs/" class="md-nav__link">
+      <a href="../../examples/openebs/" class="md-nav__link">
         
   
   
@@ -2060,7 +2060,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../examples/longhorn/" class="md-nav__link">
+      <a href="../../examples/longhorn/" class="md-nav__link">
         
   
   
@@ -2142,7 +2142,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../troubleshooting/FAQ/" class="md-nav__link">
+      <a href="../../troubleshooting/FAQ/" class="md-nav__link">
         
   
   
@@ -2170,7 +2170,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../troubleshooting/logs/" class="md-nav__link">
+      <a href="../../troubleshooting/logs/" class="md-nav__link">
         
   
   
@@ -2198,7 +2198,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../troubleshooting/troubleshooting/" class="md-nav__link">
+      <a href="../../troubleshooting/troubleshooting/" class="md-nav__link">
         
   
   
@@ -2226,7 +2226,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../troubleshooting/support-dump/" class="md-nav__link">
+      <a href="../../troubleshooting/support-dump/" class="md-nav__link">
         
   
   
@@ -2254,7 +2254,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../troubleshooting/certificate-authorities/" class="md-nav__link">
+      <a href="../../troubleshooting/certificate-authorities/" class="md-nav__link">
         
   
   
@@ -2286,20 +2286,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
         
           
           <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
@@ -2320,7 +2318,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_8">
             <span class="md-nav__icon md-icon"></span>
             
@@ -2338,7 +2336,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../architecture/" class="md-nav__link">
+      <a href="../../architecture/" class="md-nav__link">
         
   
   
@@ -2363,35 +2361,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Command Line
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../cli/" class="md-nav__link">
         
   
   
@@ -2407,74 +2380,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#k0s" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        k0s
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="k0s">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#synopsis" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Synopsis
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#options" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Options
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#see-also" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        SEE ALSO
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -2487,7 +2392,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../cis_benchmark/" class="md-nav__link">
+      <a href="../../cis_benchmark/" class="md-nav__link">
         
   
   
@@ -2569,7 +2474,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../security/" class="md-nav__link">
+      <a href="../../security/" class="md-nav__link">
         
   
   
@@ -2597,7 +2502,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../releases/" class="md-nav__link">
+      <a href="../../releases/" class="md-nav__link">
         
   
   
@@ -2672,7 +2577,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../governance/cncf/ai-conformance/" class="md-nav__link">
+      <a href="../../governance/cncf/ai-conformance/" class="md-nav__link">
         
   
   
@@ -2700,7 +2605,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../governance/cncf/gtr/" class="md-nav__link">
+      <a href="../../governance/cncf/gtr/" class="md-nav__link">
         
   
   
@@ -2728,7 +2633,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../governance/cncf/security-self-assessment/" class="md-nav__link">
+      <a href="../../governance/cncf/security-self-assessment/" class="md-nav__link">
         
   
   
@@ -2771,7 +2676,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../commercial-support/" class="md-nav__link">
+      <a href="../../commercial-support/" class="md-nav__link">
         
   
   
@@ -2798,7 +2703,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../adopters/" class="md-nav__link">
+      <a href="../../adopters/" class="md-nav__link">
         
   
   
@@ -2822,18 +2727,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" checked>
         
           
           <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
@@ -2854,7 +2761,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_12">
             <span class="md-nav__icon md-icon"></span>
             
@@ -2872,7 +2779,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../contributors/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   
@@ -2900,7 +2807,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../contributors/github_workflow/" class="md-nav__link">
+      <a href="../github_workflow/" class="md-nav__link">
         
   
   
@@ -2925,10 +2832,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../contributors/code_guidelines/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Code guidelines
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -2944,6 +2878,109 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#size-the-code-to-the-problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Size the code to the problem
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comments
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#errors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Errors
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logging" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Logging
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#compatibility-across-versions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Compatibility across versions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Compatibility across versions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#transitional-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Transitional code
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tests
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -2956,7 +2993,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../contributors/testing/" class="md-nav__link">
+      <a href="../testing/" class="md-nav__link">
         
   
   
@@ -2984,7 +3021,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../contributors/docs/" class="md-nav__link">
+      <a href="../docs/" class="md-nav__link">
         
   
   
@@ -3029,6 +3066,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -3037,44 +3076,66 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#k0s" class="md-nav__link">
+  <a href="#size-the-code-to-the-problem" class="md-nav__link">
     <span class="md-ellipsis">
       
-        k0s
+        Size the code to the problem
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="k0s">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comments
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#errors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Errors
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logging" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Logging
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#compatibility-across-versions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Compatibility across versions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Compatibility across versions">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#synopsis" class="md-nav__link">
+  <a href="#transitional-code" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Synopsis
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#options" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Options
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#see-also" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        SEE ALSO
+        Transitional code
       
     </span>
   </a>
@@ -3083,6 +3144,17 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tests
+      
+    </span>
+  </a>
   
 </li>
       
@@ -3103,40 +3175,144 @@
 
 
 
-  <h1>Command Line</h1>
+<!--
+SPDX-FileCopyrightText: 2026 k0s authors
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
 
-<h2 id="k0s">k0s<a class="headerlink" href="#k0s" title="Permanent link">#</a></h2>
-<p>k0s - Zero Friction Kubernetes</p>
-<h3 id="synopsis">Synopsis<a class="headerlink" href="#synopsis" title="Permanent link">#</a></h3>
-<p>k0s - The zero friction Kubernetes - https://k0sproject.io</p>
-<h3 id="options">Options<a class="headerlink" href="#options" title="Permanent link">#</a></h3>
-<div class="highlight"><pre><span></span><code>  -h, --help   help for k0s
-</code></pre></div>
-<h3 id="see-also">SEE ALSO<a class="headerlink" href="#see-also" title="Permanent link">#</a></h3>
-<ul>
-<li><a href="k0s_airgap/">k0s airgap</a>    - Tooling for airgapped installations</li>
-<li><a href="k0s_api/">k0s api</a>  - Run the controller API</li>
-<li><a href="k0s_backup/">k0s backup</a>    - Back-Up k0s configuration. Must be run as root (or with sudo)</li>
-<li><a href="k0s_completion/">k0s completion</a>    - Generate completion script</li>
-<li><a href="k0s_config/">k0s config</a>    - Configuration related sub-commands</li>
-<li><a href="k0s_controller/">k0s controller</a>    - Run controller</li>
-<li><a href="k0s_ctr/">k0s ctr</a>  - containerd CLI</li>
-<li><a href="k0s_docs/">k0s docs</a>    - Generate k0s command documentation</li>
-<li><a href="k0s_etcd/">k0s etcd</a>    - Manage etcd cluster</li>
-<li><a href="k0s_install/">k0s install</a>  - Install k0s on a brand-new system. Must be run as root (or with sudo)</li>
-<li><a href="k0s_keepalived-config/">k0s keepalived-config</a>  - Keepalived configuration related sub-commands</li>
-<li><a href="k0s_kubeconfig/">k0s kubeconfig</a>    - Create a kubeconfig file for a specified user</li>
-<li><a href="k0s_kubectl/">k0s kubectl</a>  - kubectl controls the Kubernetes cluster manager</li>
-<li><a href="k0s_reset/">k0s reset</a>  - Uninstall k0s. Must be run with elevated privileges</li>
-<li><a href="k0s_restore/">k0s restore</a>  - restore k0s state from given backup archive. Use '-' as filename to read from stdin. Must be run as root (or with sudo)</li>
-<li><a href="k0s_start/">k0s start</a>  - Start the k0s service configured on this host. Must be run as root (or with sudo)</li>
-<li><a href="k0s_status/">k0s status</a>    - Get k0s instance status information</li>
-<li><a href="k0s_stop/">k0s stop</a>    - Stop the k0s service configured on this host. Must be run as root (or with sudo)</li>
-<li><a href="k0s_sysinfo/">k0s sysinfo</a>  - Display system information</li>
-<li><a href="k0s_token/">k0s token</a>  - Manage join tokens</li>
-<li><a href="k0s_version/">k0s version</a>  - Print the k0s version</li>
-<li><a href="k0s_worker/">k0s worker</a>    - Run worker</li>
-</ul>
+<h1 id="code-guidelines">Code guidelines<a class="headerlink" href="#code-guidelines" title="Permanent link">#</a></h1>
+<p>This page collects guidelines for the k0s code base. Many of them stem from
+things that come up frequently during code reviews, or from k0s design
+constraints, such as being a per-node agent. These guidelines complement
+linters, which enforce general formatting and Go coding style. However, linters
+perform static code analysis and can't judge broader concepts, such as whether a
+change is the right size or if a comment is appropriate and accurate.</p>
+<p>None of this is set in stone. The right trade-off depends on what a particular
+change does, and reviewers may weigh things differently from case to case. The
+guidelines also evolve with the project: if one of them stops serving its
+purpose, change it rather than working around it.</p>
+<p>Existing code doesn't follow all of this. When touching such code, prefer these
+guidelines over consistency with the surrounding code, but don't churn unrelated
+lines just to bring them in line.</p>
+<!--
+Areas that still need some guidance:
+
+- Feature flags: when something should be behind a feature flag and when not.
+- Concurrency patterns
+- Dependencies
+  - What to consider when adding one
+  - CNCF allowed third-party license policy
+-->
+
+<h2 id="size-the-code-to-the-problem">Size the code to the problem<a class="headerlink" href="#size-the-code-to-the-problem" title="Permanent link">#</a></h2>
+<p>Match the amount of structure to what the change needs. A few lines at the call
+site don't need a helper, a helper doesn't need to be exported, and neither
+needs its own abstraction until there's a second user. Extra structure isn't
+free; it creates more surface area to read, review, and maintain.</p>
+<p>Remove dead code when you come across it, but keep such cleanups separate from
+functional changes, at least in the <a href="../github_workflow/#commit-push">commit message</a>.</p>
+<h2 id="comments">Comments<a class="headerlink" href="#comments" title="Permanent link">#</a></h2>
+<p>Comments cost readers time every time they read the code. Keep them crisp. Don't
+comment on obvious things or things that readers can quickly figure out. Comment
+on what they can't, such as ordering requirements, timing assumptions, or
+compatibility with earlier versions. Judge a comment based on what it adds, not
+by its length. Restating what the code already says is unhelpful even in a
+single line, whereas a comment that explains an important, broader concept which
+can't be better documented elsewhere may span several sentences or even
+paragraphs.</p>
+<p>Comments describe the present, not the past. Version control holds the history.
+A comment that explains what the code used to do, which bug motivated a test, or
+how a change came about belongs in the <a href="../github_workflow/#commit-push">commit message</a>, not in the code.</p>
+<p>Avoid referencing file names or line numbers in comments. They become outdated
+with the next refactoring, and nothing will tell you. Refer to Go identifiers
+instead, using <a href="https://go.dev/doc/comment#doclinks">doc links</a> where possible, so that the reference stays navigable
+and tooling catches renames.</p>
+<h2 id="errors">Errors<a class="headerlink" href="#errors" title="Permanent link">#</a></h2>
+<p>An error message is a fragment that gets chained with others through wrapping.
+Keep it lowercase and without trailing punctuation, as per the <a href="https://go.dev/wiki/CodeReviewComments#error-strings">Go
+conventions</a>, so that <code>failed to apply stack: cannot create
+resource: connection refused</code> reads as one line.</p>
+<p>Add context to an error only if it's neither part of the error already nor known
+to the caller anyway. Many errors, such as those returned by the standard
+library's I/O functions, are self-describing, and the caller knows which
+function it called. Wrapping them with a message that restates the operation
+adds noise, not information.</p>
+<h2 id="logging">Logging<a class="headerlink" href="#logging" title="Permanent link">#</a></h2>
+<p>Logs are the primary tool users have to understand what k0s is doing on their
+systems. They're often read out of context, in between lots of other output, by
+someone who doesn't know the code. A good log message tells them what happened
+and, ideally, what they can do about it, such as which file, resource, or
+configuration to examine. That helps both sides. Users who can troubleshoot
+their own systems don't need to ask for help, and the questions that do reach
+the developers arrive with the right information attached.</p>
+<p>Log what helps readers understand what's going on and why. What's noise in one
+situation is a decisive hint in another, and the log level is what separates the
+two. It decides who sees a message, and when.</p>
+<p>For instance, a periodic task that finds nothing is noise at <code>Info</code> level, but
+useful at <code>Debug</code> level. Pick the level based on what the reader is expected to
+do with the message. As a rule of thumb, use <code>Debug</code> for details that only
+matter when troubleshooting, <code>Info</code> for the normal course of events, <code>Warn</code> for
+problems that k0s handles on its own, but that may need attention if they
+persist, and <code>Error</code> for failures that require someone to act.</p>
+<p>While retries are ongoing, log each failed attempt at <code>Debug</code> if failures are
+expected or at <code>Warn</code> if they are not. Escalate to <code>Error</code> once retries are
+exhausted or if the operation has not succeeded within a reasonable time. If the
+consequences aren't obvious, explain what will happen, e.g. if an operation will
+be retried, skipped, or abandoned.</p>
+<p>Prefer putting variable data, especially error values, into fields rather than
+into the message text, so that messages stay stable and searchable. Fields are
+useful when the same name is used across messages because a filter on that name
+finds every message about the same thing. Messages without placeholders work the
+other way around. They read the same wherever they're logged, so filtering on
+them finds all things affected by the same event. Values that no other message
+would share are fine in the message text. Keep messages in sync with the
+conditions they describe. When a condition changes, its message usually has to
+change, too.</p>
+<p>Unlike an error message, a log message stands on its own. Write it as a
+sentence, starting with a capital letter and without a trailing period.</p>
+<p>Log errors where they're handled, not where they're passed on. An error that's
+both logged and returned will usually end up in the logs once for every layer it
+passes through. When logging an error, avoid repeating what the error message
+already says. The message provides context, while the error provides the cause.</p>
+<h2 id="compatibility-across-versions">Compatibility across versions<a class="headerlink" href="#compatibility-across-versions" title="Permanent link">#</a></h2>
+<p>k0s is a per-node agent. Each node reads its own configuration at startup and
+acts locally. Cluster-wide coordination is the responsibility of the users or of
+additional tooling, such as <a href="../../autopilot/">Autopilot</a>, <a href="../../k0sctl-install/">k0sctl</a> or <a href="https://github.com/k0sproject/k0smotron">k0smotron</a>. Nodes are
+upgraded individually rather than all at once, so controllers and workers of
+adjacent versions run side by side for a while, within the limits of the
+<a href="../../version-skew-policy/">version skew policy</a>.</p>
+<p>Any change has to work under those conditions: a new version must interoperate
+with the previous one, and it must keep reading whatever an earlier version has
+persisted, on disk or in the cluster. The burden is on the newer version, since
+the older one can't know anything about behavior that didn't exist yet. Whatever
+it persists itself must either stay usable by the previous version, or be kept
+apart from what the previous version reads, for example by versioning its name
+or location.</p>
+<p>Prefer designs that converge node by node to those that require every node to
+flip simultaneously. If the old and new behaviors can't coexist, don't hide the
+switch in the upgrade. Keep the old behavior until users explicitly enable the
+new one so that they can choose when the disruption happens, and document what
+the switch entails.</p>
+<p>Changed configuration defaults must not alter the behavior of clusters that were
+created with a previous version. New clusters get the new defaults, while
+existing clusters keep behaving as before unless they opt in. This applies to
+defaults that stand in for a choice users could have made in the configuration,
+not to properties of the release itself, such as the versions of the components
+that k0s ships.</p>
+<h3 id="transitional-code">Transitional code<a class="headerlink" href="#transitional-code" title="Permanent link">#</a></h3>
+<p>Code that only exists to migrate from an earlier version or clean up leftovers
+will be removed eventually. Keep it small and local, and mark it with a <code>TODO</code>
+note indicating the version in which it can be removed. Don't build abstractions
+or test suites around something scheduled for deletion unless the logic is
+complex enough to justify the test. Verify it once and explain how in the pull
+request.</p>
+<h2 id="tests">Tests<a class="headerlink" href="#tests" title="Permanent link">#</a></h2>
+<p>Use <a href="https://github.com/stretchr/testify">testify</a> for assertions, and add assertion messages that state the
+expectation, so that a failure reads as a sentence. Test names describe the
+behavior under test, not the reason the test was added. Use obviously made-up
+values for test inputs that aren't the subject of the test, so that it's clear
+which values matter and which don't. See the <a href="../testing/">testing guide</a> for how to run the
+different kinds of tests, and what's expected before a pull request is merged.</p>
 
 
 
@@ -3238,10 +3414,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["toc.autohide", "search.suggest", "search.highlight", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "stable", "provider": "mike"}}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["toc.autohide", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "stable", "provider": "mike"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
     
   </body>
